@@ -28,7 +28,7 @@
 <meta property="og:description" content="一、概述这篇文章通过总结了大量的现有网络，指出对于VSR而言最重要的四个基础功能模块：传播（propagtion），对齐（Alignment），聚合（Aggregation），上采样（Uosampling）。由此，通过对现有的一些选件的稍加修改，文章提出了一种简洁的VSR模型基准——BasicVSR，并且在训练速度和重建质量上取得了很好的效果。同时通过加入 information-refill 机">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-05-24T12:52:31.000Z">
-<meta property="article:modified_time" content="2021-05-24T14:06:21.505Z">
+<meta property="article:modified_time" content="2021-05-24T14:13:46.445Z">
 <meta property="article:author" content="Donghao Ji">
 <meta property="article:tag" content="VSR">
 <meta name="twitter:card" content="summary">
@@ -213,7 +213,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2021-05-24 20:52:31 / Modified: 22:06:21" itemprop="dateCreated datePublished" datetime="2021-05-24T20:52:31+08:00">2021-05-24</time>
+              <time title="Created: 2021-05-24 20:52:31 / Modified: 22:13:46" itemprop="dateCreated datePublished" datetime="2021-05-24T20:52:31+08:00">2021-05-24</time>
             </span>
 
           
@@ -228,7 +228,15 @@
 
       
         <h1 id="一、概述"><a href="#一、概述" class="headerlink" title="一、概述"></a>一、概述</h1><p>这篇文章通过总结了大量的现有网络，指出对于<strong>VSR</strong>而言最重要的四个基础功能模块：传播（propagtion），对齐（Alignment），聚合（Aggregation），上采样（Uosampling）。由此，通过对现有的一些选件的稍加修改，文章提出了一种简洁的VSR模型基准——<em>BasicVSR</em>，并且在训练速度和重建质量上取得了很好的效果。同时通过加入 <em>information-refill</em> 机制和 <em>coupled propagation</em> 方法得到的 <em>BasicVSR</em> 的扩展 <em>IconVSR</em> ，两者可以作为未来VSR方法的基准。</p>
-<h1 id="二、方法分析"><a href="#二、方法分析" class="headerlink" title="二、方法分析"></a>二、方法分析</h1>
+<h1 id="二、方法分析"><a href="#二、方法分析" class="headerlink" title="二、方法分析"></a>二、方法分析</h1><ol>
+<li><p><strong>propagation</strong></p>
+<p>propagation（传播）是VSR过程中最有影响力的部分之一。它指明了视频序列中的信息是如何使用的。目前已有的传播方法有三大类：局部（local），单向（unidirectional），双向（bidirectional）。</p>
+<ul>
+<li>局部传播（local propagation）使用的是滑动窗口的方式来获取重建信息。这样的设计导致</li>
+</ul>
+</li>
+</ol>
+
     </div>
 
     
