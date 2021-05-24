@@ -8,7 +8,7 @@
 <li><p><strong>propagation</strong></p>
 <p>propagation（传播）是VSR过程中最有影响力的部分之一。它指明了视频序列中的信息是如何使用的。目前已有的传播方法有三大类：局部（local），单向（unidirectional），双向（bidirectional）。</p>
 <ul>
-<li>局部传播（local propagation）使用的是滑动窗口的方式来获取重建信息。这样的设计导致</li>
+<li>局部传播（local propagation）使用的是滑动窗口的方式来获取重建信息。这样的设计导致可获得的信息被限制在当前帧的一个小邻域内。</li>
 </ul>
 </li>
 </ol>
@@ -16,11 +16,6 @@
       <tags>
         <tag>VSR</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>卷积神经网络</title>
-    <url>/2021/04/06/%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/</url>
-    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>图像超分辨率的基本概念</title>
